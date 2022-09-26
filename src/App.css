@@ -1,0 +1,535 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ html {
+     margin: 0px;
+     height: 100vh;
+     width: 100vw;
+ }
+
+ .App {
+     height: 100vh;
+     width: 100vw;
+     margin: 0px;
+
+ }
+
+ body {
+     height: 100vh;
+     width: 100vw;
+     margin: 0;
+
+
+ }
+
+ /****/
+
+ .App_header {
+     position: absolute;
+     top: 0;
+     background-color: black;
+     width: 100%;
+     height: 15%;
+ }
+
+
+ .App_header_div {
+     background-color: rgb(192, 45, 45);
+     width: 100%;
+     height: 50%;
+ }
+
+
+ .pokedex_logo {
+     background-image: url('./assets/img/pekelogo.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+     position: absolute;
+     width: 100%;
+     height: 15%;
+     top: 2%;
+ }
+
+ .pokedex_logo   {
+    animation-duration: 0.80s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+
+ .home {
+
+     display: flex;
+     justify-content: center;
+     font-weight: bolder;
+     width: 100vw;
+     height: 100%;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+
+ .home_img {
+
+     width: 300px;
+     height: 500px;
+     margin-left: 3%;
+     margin-top: 150px;
+     background-image: url('./assets/img/pokedex-removebg-preview.png');
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+
+ .input_home {
+     margin-left: 22%;
+     margin-top: 39%;
+ }
+
+ .btn_home {
+     margin-left: 24%;
+     margin-top: 2%;
+     border: 2px blue solid;
+     background-color: yellow;
+     color: blue;
+     font-weight: bold;
+     box-shadow: 0 0 15px black;
+     border-radius: 25px;
+ }
+
+ .btn_home:hover {
+     border: none;
+     cursor: pointer;
+ }
+
+ .home_text {
+     width: 65%;
+     margin-top: -105px;
+     margin-left: 11%;
+     text-align: center;
+     font-size: 16px;
+     color: rgb(12, 12, 12);
+ }
+
+
+ .animation_img {
+     margin-top: 145px;
+     margin-left: 14%;
+     width: 63%;
+     height: 24%;
+     border-radius: 15px;
+     border-radius: 15px;
+ }
+
+ /**comp pokedex**/
+
+
+
+
+ .pokedex {
+
+     margin-top: 150px;
+     width: 100vw;
+     height: 1%;
+
+ }
+
+ .pokedex_nameTrainer {
+     position: absolute;
+     margin-top: -135px;
+     margin-left: 7%;
+     font-size: 12px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+  
+
+ .form_pokedex {
+     background-color: rgb(207, 62, 25);
+     width: 200px;
+     height: 58px;
+     position: absolute;
+     top: 180px;
+     margin-left: 100px;
+     border-radius: 15px;
+     box-shadow: 0 0 15px rgb(3, 74, 102);
+ }
+
+ .pokeball_icon {
+     background-image: url(./assets/img/pokeball.png);
+     background-size: contain;
+     position: absolute;
+     left: 29px;
+     top: 159px;
+     width: 90px;
+     height: 90px;
+
+     background-repeat: no-repeat;
+
+ }
+
+ .input_toSearchPok {
+     margin-left: 12%;
+     width: 150px;
+     margin-top: 9px;
+ }
+
+
+
+ .btn_toSearchPok {
+     border: blue 2px solid;
+     color: blue;
+     background-color: yellow;
+     font-weight: bold;
+     margin-left: 46px;
+ }
+
+
+ .btn_toSearchPok:hover {
+     border: none;
+     cursor: pointer;
+ }
+
+ /***Filters all pokemon**/
+
+
+ select {
+     position: absolute;
+     top: 250px;
+     right: 3%;
+     border: blue 2px solid;
+     color: blue;
+     background-color: yellow;
+     font-weight: bolder;
+ }
+
+ select:hover {
+     border: none;
+     cursor: pointer;
+ }
+
+ /**/
+
+ .cards-container {
+
+     width: 95%;
+     margin-left: 2.6%;
+     margin-top: 275px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color: rgb(17, 17, 17);
+     opacity: 94%;
+     gap: 4%;
+     margin-bottom: 150px;
+
+ }
+
+ 
+
+
+
+ .card {
+     margin-top: 150px;
+     width: 252px;
+     height: 460px;
+     background: linear-gradient(120deg, rgb(255, 255, 255), rgb(255, 251, 251));
+
+     margin-bottom: 80px;
+ }
+
+ .card:hover {
+     box-shadow: 0 0 25px teal;
+     margin-top: 135px;
+     cursor: pointer;
+
+ }
+
+
+ .card_header {
+
+     width: 240px;
+     height: 225px;
+     margin-left: 6px;
+     margin-top: 5px;
+     border: black 1px solid;
+
+ }
+
+
+ .bg-fire {
+     background: linear-gradient(178.92deg, #F96D6F -32.26%, ORANGE 22.55%, YELLOW 125.72%);
+     ;
+ }
+
+ .bg-water {
+     background: linear-gradient(178.92deg, #0c23f1 -32.26%, rgb(36, 165, 216) 22.55%, rgb(217, 127, 235) 125.72%);
+     ;
+ }
+
+ .bg-grass {
+     background: linear-gradient(178.92deg, #277e04 -32.26%, rgb(36, 216, 75) 22.55%, rgb(219, 235, 127) 125.72%);
+     ;
+ }
+
+ .bg-bug {
+     background: linear-gradient(178.92deg, #1be9a4 -32.26%, rgb(3, 94, 22) 22.55%, rgb(219, 235, 127) 125.72%);
+     ;
+ }
+
+ .bg-poison {
+     background: linear-gradient(178.92deg, #54035c -32.26%, rgb(138, 48, 197) 22.55%, rgb(73, 71, 75) 125.72%);
+     ;
+ }
+
+ .bg-normal {
+     background: linear-gradient(178.92deg, #7a528a -32.26%, rgb(187, 115, 177) 22.55%, rgb(102, 86, 99) 125.72%);
+     ;
+ }
+
+ .bg-fighting {
+     background: linear-gradient(178.92deg, #e04c12 -32.26%, rgb(219, 108, 17) 22.55%, rgb(196, 204, 82) 125.72%);
+     ;
+ }
+
+ .bg-flying {
+     background: linear-gradient(178.92deg, #566c6e -32.26%, rgb(72, 170, 177) 22.55%, rgb(231, 231, 224) 125.72%);
+     ;
+ }
+
+ .bg-ground {
+     background: linear-gradient(178.92deg, #3f2c03 -32.26%, rgb(122, 102, 12) 22.55%, rgb(236, 236, 180) 125.72%);
+     ;
+ }
+
+ .bg-rock {
+     background: linear-gradient(178.92deg, #70706f -32.26%, rgb(172, 171, 169) 22.55%, rgb(214, 214, 211) 125.72%);
+     ;
+ }
+
+ .bg-ghost {
+     background: linear-gradient(178.92deg, #0422a7 -32.26%, rgb(9, 6, 155) 22.55%, rgb(154, 71, 248) 125.72%);
+     ;
+ }
+
+ .bg-steel {
+     background: linear-gradient(178.92deg, #363638 -32.26%, rgb(93, 93, 116) 22.55%, rgb(135, 168, 228) 125.72%);
+     ;
+ }
+
+ .bg-electric {
+     background: linear-gradient(178.92deg, #eeff04 -32.26%, rgb(235, 243, 217) 22.55%, rgb(204, 223, 27) 125.72%);
+     ;
+ }
+
+ .bg-psychic {
+     background: linear-gradient(178.92deg, #ff04de -32.26%, rgb(246, 247, 243) 22.55%, rgb(128, 27, 223) 125.72%);
+     ;
+ }
+
+ .bg-ice {
+     background: linear-gradient(178.92deg, #04cdff -32.26%, rgb(19, 22, 207) 22.55%, rgb(4, 214, 204) 125.72%);
+     ;
+ }
+
+ .bg-dragon {
+     background: linear-gradient(178.92deg, #490279 -32.26%, rgb(170, 43, 102) 22.55%, rgb(4, 214, 204) 125.72%);
+     ;
+ }
+
+ .bg-dark {
+     background: linear-gradient(178.92deg, #577897 -32.26%, rgb(27, 26, 27) 22.55%, rgb(105, 146, 144) 125.72%);
+     ;
+ }
+
+ .bg-fairy {
+     background: linear-gradient(178.92deg, #d8b4e9 -32.26%, rgb(143, 4, 143) 22.55%, rgb(105, 146, 144) 125.72%);
+     ;
+ }
+
+ .bg-fairy {
+     background: linear-gradient(178.92deg, #d8b4e9 -32.26%, rgb(143, 4, 143) 22.55%, rgb(105, 146, 144) 125.72%);
+     ;
+ }
+
+ .pokeImgAtPokedex {
+     width: 95%;
+     height: 95%;
+
+ }
+
+ .pokecard_name {
+     margin-top: -15px;
+     text-align: center;
+     color: rgb(13, 13, 14);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+ }
+
+
+ .pokecard_types {
+     width: 60px;
+     border: 1px grey solid;
+     border-radius: 9px;
+     text-align: center;
+     border: blue 2px solid;
+     color: blue;
+     background-color: yellow;
+     font-weight: bolder;
+     box-shadow: 0 0 5px black;
+ }
+
+
+
+
+ .imga_pokedex {
+     background-color: rgb(115, 255, 0);
+ }
+
+
+
+ ul {
+     margin-top: 5px;
+     color: aliceblue;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     display: flex;
+     font-size: 12px;
+     font-weight: bold;
+     flex-wrap: wrap;
+     gap: 8px;
+     margin-left: -26px;
+ }
+
+ li {
+     background-color: rgb(180, 32, 6);
+     display: flex;
+     letter-spacing: -1px;
+     flex-direction: column;
+     font-size: 9px;
+     font-weight: bold;
+     text-align: center;
+     justify-content: center;
+     border: grey 1px solid;
+     list-style: none;
+     margin-top: 15px;
+     width: 68px;
+     height: 45px;
+     border-radius: 6px;
+     color: rgb(235, 235, 243);
+
+ }
+
+ /***/
+
+
+
+
+ .pokemon_Details {
+    position: relative;
+     display: flex;
+left: 7%;
+     justify-content: center;
+     align-items: center;
+     margin-top: 250px;
+     width: 86%;
+    border-radius: 15px;
+     box-shadow: 0 0 15px black;
+}
+
+
+.pokemon_Details  {
+    animation-duration: 2.0s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+.pokemon_Details_Name{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.pokemon_Details_btn {
+     position: absolute;
+     top: 98%;
+     width: 100px;
+ }
+
+ .pokemon_Details_Ima{
+    width: 45%;
+ }
+
+
+ .pokemon_Details_abilities_title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    
+    margin-top: 15%;
+ }
+ .pokemon_Details_abilities{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+ }
+ .pokemon_Details_abilities2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .pokemon_Details_title_Basexp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;;
+}
+
+ .pokemon_Details_Basexp{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+   
+ }
+
+
+ .pokemon_Details_title_height{
+
+    font-size: 21px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pokemon_Details_height{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pokemon_Details_btn{border: blue 2px solid;
+    color: blue;
+    background-color: yellow;
+    font-weight: bolder;
+    width: auto;
+    border-radius: 15px;
+
+}
+hr{margin-left: 5px;}
