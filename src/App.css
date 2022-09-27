@@ -96,9 +96,9 @@
 
  .input_home {
     background-color:  white;
-     margin-left: 18%;
+     margin-left: 16%;
      margin-top: 39%;
-     width: 100px;
+     width: 180px;
  }
 
  .btn_home {
@@ -185,7 +185,7 @@
 
  .input_toSearchPok {
      margin-left: 16%;
-     width: 190px;
+     width: 196px;
      margin-top: 9px;
      background-color: white;
  }
