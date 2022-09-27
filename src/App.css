@@ -52,23 +52,23 @@
      top: 2%;
  }
 
- .pokedex_logo   {
-    animation-duration: 0.80s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-  
+ .pokedex_logo {
+     animation-duration: 0.80s;
+     animation-name: slidein;
+ }
+
+ @keyframes slidein {
+     from {
+         margin-left: 100%;
+         width: 300%;
+     }
+
+     to {
+         margin-left: 0%;
+         width: 100%;
+     }
+ }
+
 
  .home {
 
@@ -95,7 +95,7 @@
  }
 
  .input_home {
-     margin-left: 22%;
+     margin-left: 18%;
      margin-top: 39%;
  }
 
@@ -153,9 +153,9 @@
      margin-left: 7%;
      font-size: 12px;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+ }
 
-  
+
 
  .form_pokedex {
      background-color: rgb(207, 62, 25);
@@ -238,7 +238,7 @@
 
  }
 
- 
+
 
 
 
@@ -438,98 +438,106 @@
 
 
  .pokemon_Details {
-    position: relative;
+     position: relative;
      display: flex;
-left: 7%;
+     left: 7%;
      justify-content: center;
      align-items: center;
      margin-top: 250px;
      width: 86%;
-    border-radius: 15px;
+     border-radius: 15px;
      box-shadow: 0 0 15px black;
-}
+ }
 
 
-.pokemon_Details  {
-    animation-duration: 2.0s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+ .pokemon_Details {
+     animation-duration: 2.0s;
+     animation-name: slidein;
+ }
+
+ @keyframes slidein {
+     from {
+         margin-left: 100%;
+         width: 300%;
+     }
+
+     to {
+         margin-left: 0%;
+         width: 100%;
+     }
+ }
 
 
 
-.pokemon_Details_Name{
-    position: absolute;
-    top: 15px;
-    left: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+ .pokemon_Details_Name {
+     position: absolute;
+     top: 15px;
+     left: 10px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
 
-.pokemon_Details_btn {
+ .pokemon_Details_btn {
      position: absolute;
      top: 98%;
      width: 100px;
  }
 
- .pokemon_Details_Ima{
-    width: 45%;
+ .pokemon_Details_Ima {
+     width: 45%;
  }
 
 
- .pokemon_Details_abilities_title{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
-    
-    margin-top: 15%;
- }
- .pokemon_Details_abilities{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
- }
- .pokemon_Details_abilities2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ .pokemon_Details_abilities_title {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 18px;
+
+     margin-top: 15%;
  }
 
- .pokemon_Details_title_Basexp{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;;
-}
+ .pokemon_Details_abilities {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
- .pokemon_Details_Basexp{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
+ }
 
-   
+ .pokemon_Details_abilities2 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .pokemon_Details_title_Basexp {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 18px;
+     ;
+ }
+
+ .pokemon_Details_Basexp {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 18px;
+
+
  }
 
 
- .pokemon_Details_title_height{
+ .pokemon_Details_title_height {
 
-    font-size: 21px;
+     font-size: 21px;
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
 
-.pokemon_Details_height{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+ .pokemon_Details_height {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
 
-.pokemon_Details_btn{border: blue 2px solid;
-    color: blue;
-    background-color: yellow;
-    font-weight: bolder;
-    width: auto;
-    border-radius: 15px;
+ .pokemon_Details_btn {
+     border: blue 2px solid;
+     color: blue;
+     background-color: yellow;
+     font-weight: bolder;
+     width: auto;
+     border-radius: 15px;
 
-}
-hr{margin-left: 5px;}
+ }
+
+ hr {
+     margin-left: 5px;
+ }
