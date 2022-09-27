@@ -95,7 +95,7 @@
  }
 
  .input_home {
-    background-color:  white;
+     background-color: white;
      margin-left: 16%;
      margin-top: 39%;
      width: 180px;
@@ -184,8 +184,8 @@
  }
 
  .input_toSearchPok {
-
-width: 190px;
+    margin-left: 12%;
+     width: 150px;
      margin-top: 9px;
      background-color: white;
  }
